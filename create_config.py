@@ -175,7 +175,7 @@ def create_decoder_config():
 def get_sequence_len(dataset_name):
     data = {
         "wikipedia": 128,
-        "rocstories": 64,
+        "rocstories": 80,
         "qqp": 50,
         "xsum": 64,
         "wiki_auto": 100,
@@ -186,7 +186,7 @@ def get_sequence_len(dataset_name):
 def get_context_len(dataset_name):
     data = {
         "wikipedia": 128,
-        "rocstories": 64,
+        "rocstories": 80,
         "qqp": 50,
         "xsum": 512,
         "wiki_auto": 100,
